@@ -1,0 +1,36 @@
+<!--pages/koalaParent/signIn/signIn.wxml-->
+<view class='main'>
+  <view class='main-title'>新用户注册</view>
+  
+  <view class='label'>
+
+    <view class='label-index'>
+      <view class='title'>姓名</view>
+      <input type='text'></input>
+    </view>
+
+    <view class='label-index'>
+      <view class='title'>手机号</view>
+      <input type='number'></input>
+    </view>
+
+    <view class='label-index'>
+      <view class='title'>验证码</view>
+      <input type='number' style='width: 200rpx;'></input>
+      <view class='get-code'>发送验证码</view>
+    </view>
+
+    <view class='label-index'>
+      <view class='title'>输入密码</view>
+      <input type='text' password="true"></input>
+    </view>
+
+    <view class='label-index'>
+      <view class='title'>确认密码</view>
+      <input type='text' password="true"></input>
+    </view>
+
+  </view>
+
+  <view class='button'>确定</view>
+</view>

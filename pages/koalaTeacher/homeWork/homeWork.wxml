@@ -1,0 +1,105 @@
+<!--pages/koalaTeacher/homeWork/homeWork.wxml-->
+<view class='modal_bac' wx:if="{{modal1}}">
+  <view class="modal_content animated bounceIn">
+    <view class='modal_title'>作业时间说明</view>
+    <view class='modal_item'>
+      <view class='modal_dot'></view>
+      <text class='modal_text'>开始时间: </text>学生每天下午
+      <text class='modal_text_green'>3:00-4:30</text>之间收到您布置的作业，作业报告会在
+      <text class='modal_text_green'>4:30</text>自动生成。</view>
+    <view class='modal_item'>
+      <view class='modal_dot'></view>
+      <text class='modal_text'>结束时间: </text>学生过了作业截止时间，还可以继续完成作业，作业报告中，会显示
+      <text class='modal_text_green'>“补”</text>字。</view>
+    <view class="modal_btn" bindtap='closeModal1'>我知道了</view>
+  </view>
+</view>
+<view class='modal_bac' wx:if="{{modal3}}">
+  <view class="modal_bottom animated fadeInUp">
+    <view bindtap='closeModal3' class='taparea2'></view>
+    <image class='modal_close' src='../../../img/teacher/close.png'></image>
+    <view class="work_content_title">作业内容</view>
+    <view class='no_work' wx:if="{{!chooseSmart}}">暂无作业</view>
+    <view wx:else>
+      <view class='work_item'>
+        <view class='wit'>智能阶梯任务</view>
+        <view class='witdis'>每日{{smartNum}}篇</view>
+        <view class='del' bindtap='delSmart'>删除</view>
+      </view>
+    </view>
+  </view>
+</view>
+<view class='modal_bac' wx:if="{{modal2}}">
+  <view class='modal_content2 animated bounceIn'>
+    <view class='modal_title'>智能阶梯阅读</view>
+    <view class='modal_item'>
+      系统根据<text class='modal_text_green'>最近发展区理论</text>，针对学生的技能薄弱点及阅读能力进行智能匹配作业内容。
+    </view>
+    <view class="modal_btn" bindtap='closeModal2'>确定</view>
+  </view>
+</view>
+<view class='content'>
+  <view class='choose_class'>
+    <view class='card_title clear'>
+      <view class='line'></view>
+      <view class='title'>选择作业班级</view>
+      <view class='class_list'>
+        <scroll-view class="scroll-view_H" scroll-x style="width: auto">
+          <view bindtap='chooseClass' data-index="{{index}}" class="c_item {{item? 'active' : ''}}" id='c1' wx:key="{{index}}" wx:for="{{classList}}">一年级01班</view>
+        </scroll-view>
+      </view>
+    </view>
+  </view>
+  <view class='choose_work'>
+    <view class='card_title clear'>
+      <view class='line'></view>
+      <view class='title'>选择作业内容</view>
+      <image class='question' src='../../../img/teacher/help.png'></image>
+      <view bindtap='openModal2' class='taparea'></view>
+    </view>
+    <view class='works clear'>
+      <image bindtap='goToSmartLadder' class='work' src="{{chooseSmart? '../../../img/teacher/smart_c.png' : '../../../img/teacher/smart.png'}}"></image>
+      <image class='work' src='../../../img/teacher/ladder.png'></image>
+      <image class='work' src='../../../img/teacher/book.png'></image>
+    </view>
+  </view>
+  <view class='choose_time'>
+    <view class='card_title clear'>
+      <view class='line'></view>
+      <view class='title'>选择作业时间</view>
+      <image class='question' src='../../../img/teacher/help.png'></image>
+      <view bindtap='openModal1' class='taparea'></view>
+    </view>
+    <view class='time_area'>
+    <picker mode="date" value="{{dateStart}}" start="2018-03-01" end="2019-03-01" bindchange="bindDateChangeStart">
+      <view class='time_area_s'>
+        <view class='tsl'>
+          <view class='ll'>
+            <view class='dot'></view>
+          </view>
+          <view class='tt'>开始时间</view>
+        </view>
+        <image class='rl' src='../../../img/teacher/go.png'></image>
+        <view class='tsr'>{{dataFormateS}}</view>
+      </view>
+      </picker>
+      <picker mode="date" value="{{dateEnd}}" start="2018-03-01" end="2019-03-01" bindchange="bindDateChangeEnd">
+      <view class='time_area_e'>
+        <view class='tsl'>
+          <view class='ll'>
+            <view class='dot2'></view>
+          </view>
+          <view class='tt'>结束时间</view>
+        </view>
+        <image class='rl' src='../../../img/teacher/go.png'></image>
+        <view class='tsr'>{{dataFormateE}}</view>
+      </view>
+      </picker>
+    </view>
+    <view class='tip_time'>注:学生每天下午3:00－4:30之间会收到智能阶梯作业 </view>
+  </view>
+  <view class="btn clear  {{modal3? 'top' : ''}}">
+    <view class='btn_push' bindtap='goToResult'>发布</view>
+    <view class='dis' bindtap='openModal3'>作业内容{{smartNum? '(' + smartNum + ')' : ''}}</view>
+  </view>
+</view>

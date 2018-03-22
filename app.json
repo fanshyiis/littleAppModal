@@ -1,0 +1,27 @@
+{
+  "pages": [
+    "pages/guide/index/index",
+    "pages/koalaTeacher/result/result",
+    "pages/index/index",
+    "pages/koalaTeacher/info/info",
+    "pages/koalaTeacher/index/index",
+    "pages/koalaTeacher/login/login",
+    "pages/koalaTeacher/smartLadder/smart",
+    "pages/koalaTeacher/shareContent/shareContent",
+    "pages/koalaTeacher/taskList/task",
+    "pages/koalaTeacher/home/home",
+    "pages/koalaTeacher/homeWork/homeWork",
+    "pages/koalaParent/index/index",
+    "pages/koalaParent/bindStudent/bindStudent",
+    "pages/koalaParent/signIn/signIn",
+    "pages/koalaParent/signInSuccess/signInSuccess",
+    "pages/koalaParent/info/info",
+    "pages/koalaParent/task/task"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  }
+}

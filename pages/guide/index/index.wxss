@@ -1,0 +1,35 @@
+/* pages/guide/index/index.wxss */
+.container{
+  width: 100%;
+  height: 100%;
+}
+
+.teacher{
+  padding-top: 40%;
+  text-align: center;
+  width: 50%;
+  float: left;
+}
+
+.parent{
+  padding-top: 40%;
+  text-align: center;
+  width: 50%;
+  float: right;
+}
+
+.img_btn{
+  margin: auto;
+  width: 249rpx;
+  height: 249rpx;
+}
+
+.btn_text{
+  margin-top: 75rpx;
+	height: 32rpx;
+	font-family: PingFangSC-Regular;
+	font-size: 34rpx;
+	line-height: 42rpx;
+	letter-spacing: 0rpx;
+	color: #333333;
+}

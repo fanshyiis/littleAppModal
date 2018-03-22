@@ -1,0 +1,43 @@
+/* pages/koalaParent/task/task.wxss */
+
+page{
+  background: #ebebeb;
+}
+.main{
+  background: #ebebeb;
+  padding: 24rpx;
+}
+.card{
+  width:100%;
+  background: #fff;
+  border-radius: 24rpx;
+  margin-bottom: 20rpx;
+}
+.card-time{
+  text-align: center;
+}
+.card-title{
+  padding: 30rpx 0;
+  margin: 0 36rpx;
+  border-bottom: 1px solid #ebebeb;
+  color: #333;
+  font-size: 30rpx; 
+}
+.card-title-lt{
+  float: left;
+}
+.card-title-rt{
+  float: right;
+}
+.card-content{
+  padding: 40rpx 36rpx;
+  color: #333;
+  font-size: 30rpx; 
+}
+.orange{
+  color: #ffae00;
+  font-size: 30rpx;
+}
+.finish{
+  color: #999;
+}

@@ -1,0 +1,31 @@
+<!--pages/koalaParent/info/info.wxml-->
+<view class='main'>
+  <view class='main-head'>
+    <text>头像</text>
+      <image class='head-img' src="../../../img/teacher/header.png"></image>  
+  </view>
+
+  <view class='content'>
+    <view class='li'>
+      <text class='left'>姓名</text>
+      <text class='right'>李大大</text>
+    </view>
+
+    <view class='li'>
+      <text class='left'>城市</text>
+      <text class='right'>北京市 市辖区 海淀区</text>
+    </view> 
+
+    <view class='li'>
+      <text class='left'>学校</text>
+      <text class='right'>香叶小学</text>
+    </view> 
+
+    <view class='li'>
+      <text class='left'>手机号</text>
+      <text class='right'>18883383888</text>
+    </view> 
+  </view>
+
+  <view class='button' bindtap='navToCheck'>切换身份</view>
+</view>

@@ -1,0 +1,62 @@
+/* pages/koalaParent/signIn/signIn.wxss */
+.main{
+
+}
+.main-title{
+  text-align: center;
+  font-size: 34rpx;
+  height: 142rpx;
+  line-height: 142rpx;
+} 
+.label{
+  padding: 0 34rpx;
+}
+
+.label-index{
+  height: 120rpx;
+  line-height: 120rpx;
+  border-bottom: 1rpx solid #ccc;
+}
+
+/* .label-index:nth-child(5){
+  border: none;
+} */
+
+.title{
+  width: 170rpx;
+  float: left;
+  color: #333;
+  font-size: 28rpx;
+}
+
+.label-index input{
+  float: left;
+  height: 100%;
+  color: #20a3ff;
+  font-size: 36rpx;
+}
+
+.get-code{
+  width: 200rpx;
+	height: 72rpx;
+  line-height: 72rpx;
+  text-align: center;
+  color: #333;
+	border-radius: 36rpx;
+	border: solid 1rpx #ccc;
+  float: right;
+  font-size: 28rpx;
+  margin-top: 22rpx;
+}
+
+.button{
+  width: 682rpx;
+  height: 90rpx;
+  font-size: 34rpx;
+  line-height: 90rpx;
+  text-align: center;
+  background: #179ffe;
+  border-radius: 45rpx;
+  color: #fff;
+  margin: 120rpx auto 0;
+}

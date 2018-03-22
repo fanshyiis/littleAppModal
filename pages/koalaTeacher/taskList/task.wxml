@@ -1,0 +1,132 @@
+<!--pages/koalaTeacher/taskList/task.wxml-->
+<view class='content_task'>
+  <scroll-view scroll-y style="height: 100%;">
+    <view class='task_title'>
+      <view class='title_line'></view>
+      <view class='title_text'>未开始作业</view>
+    </view>
+    <view class='before_start_smart'>
+      <view class='b_s_content'>
+        <view class='b_s_dot'></view>
+        <view class='b_s_1'>智能阶梯作业 2018.6.1-2018.7.1</view>
+        <view class='b_s_2'>每日<text class='green'>3</text>篇</view>
+      </view>
+    </view>
+    <view class='before_start_ladder'>
+      <view class='b_s_content'>
+        <view class='b_s_dot2'></view>
+        <view class='b_s_1'>阶梯阅读作业</view>
+        <view class='b_s_2'>调皮的日子</view>
+      </view>
+    </view>
+    <view class='before_start_book'>
+      <view class='b_s_content'>
+        <view class='b_s_dot2'></view>
+        <view class='b_s_1'>课外书作业</view>
+        <view class='b_s_2'>调皮的日子</view>
+        <view class='b_s_3'>作业时间：2018.3.15-2018.4.15</view>
+      </view>
+    </view>
+    <view class='task_title title_mar'>
+      <view class='title_line'></view>
+      <view class='title_text'>
+        <text class='green_color'>今日作业</text>
+      </view>
+    </view>
+    <view class='today_smart'>
+      <view class='b_s_content'>
+        <view class='b_s_dot'></view>
+        <view class='b_s_info'>
+          <text class='green2'>11</text>/30已完成
+        </view>
+        <view class='b_s_1'>智能阶梯作业</view>
+        <view class='b_s_2'>每日
+          <text class='green'>3</text>篇阶梯阅读</view>
+        <view class='b_s_4'>学生收到作业时间：下午3:00-4:30</view>
+      </view>
+    </view>
+    <view class='today_ladder'>
+      <view class='b_s_content'>
+        <view class='b_s_info'>
+          <text class='green2'>11</text>/30已完成</view>
+        <view class='b_s_dot2'></view>
+        <view class='b_s_1'>阶梯阅读作业</view>
+        <view class='b_s_2'>调皮的日子</view>
+      </view>
+    </view>
+    <view class='today_book'>
+      <view class='b_s_content'>
+        <view class='b_s_info'>
+          <text class='green2'>11</text>/30已完成</view>
+        <view class='b_s_dot2'></view>
+        <view class='b_s_1'>课外书作业</view>
+        <view class='b_s_2'>调皮的日子</view>
+        <view class='b_s_3'>作业时间：2018.3.15-2018.4.15</view>
+      </view>
+    </view>
+    <view class='btn'>
+      <button class='btn_share' open-type="share">分享今日作业</button>
+    </view>
+    <view class='task_title title_mar'>
+      <view class='title_line'></view>
+      <view class='title_text'>
+        <text class='green_color'>今日作业</text>
+      </view>
+    </view>
+    <view class='today_no'>
+      <view class='no_text'>暂无作业</view>
+      <view class='go_push'>去布置</view>
+    </view>
+    <view class='btn'>
+      <button class='btn_share' open-type="share">分享今日作业</button>
+    </view>
+    <view class='task_title title_mar'>
+      <view class='title_line'></view>
+      <view class='title_text'>昨日作业</view>
+    </view>
+    <view class='y_smart'>
+      <view class='b_s_content'>
+        <view class='b_s_dot'></view>
+        <view class='b_s_info'>
+          <text class='green2'>11</text>/30已完成</view>
+        <view class='b_s_1'>智能阶梯作业</view>
+        <view class='b_s_2'>每日
+          <text class='green'>3</text>篇阶梯阅读</view>
+      </view>
+    </view>
+    <view class='today_ladder'>
+      <view class='b_s_content'>
+        <view class='b_s_info'>
+          <text class='green2'>11</text>/30已完成</view>
+        <view class='b_s_dot2'></view>
+        <view class='b_s_1'>阶梯阅读作业</view>
+        <view class='b_s_2'>调皮的日子</view>
+      </view>
+    </view>
+    <view class='today_book'>
+      <view class='b_s_content'>
+        <view class='b_s_info'>
+          <text class='green2'>11</text>/30已完成</view>
+        <view class='b_s_dot2'></view>
+        <view class='b_s_1'>课外书作业</view>
+        <view class='b_s_2'>调皮的日子</view>
+        <view class='b_s_3'>作业时间：2018.3.15-2018.4.15</view>
+      </view>
+    </view>
+    <view class='task_title title_mar'>
+      <view class='title_line'></view>
+      <view class='title_text'>更早作业</view>
+    </view>
+    <view class='y_smart'>
+      <view class='b_s_content'>
+        <view class='b_s_dot'></view>
+        <view class='b_s_info'>
+          <text class='green2'>11</text>/30已完成</view>
+        <view class='b_s_1'>智能阶梯作业</view>
+        <view class='b_s_2'>每日
+          <text class='green'>3</text>篇阶梯阅读</view>
+      </view>
+    </view>
+    <view class='bottom'>--已经到底啦--</view>
+  </scroll-view>
+</view>

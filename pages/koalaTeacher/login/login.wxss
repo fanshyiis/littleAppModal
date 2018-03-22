@@ -1,0 +1,107 @@
+/* pages/koalaTeacher/login/login.wxss */
+.content{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+.title{
+  text-align: center;
+	height: 32rpx;
+	font-family: PingFangSC-Regular;
+	font-size: 34rpx;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0rpx;
+	color: #1b1b1b;
+  margin-top: 115rpx;
+  margin-bottom: 164rpx;
+}
+
+.input{
+  padding-bottom: 30rpx;
+  width: 686rpx;
+  margin: auto;
+  border-bottom: solid 1px #ebebeb;
+}
+
+.input_lable{
+  width: 166rpx;
+  float: left;
+  font-size: 28rpx;
+  line-height: 44rpx;
+  color: #1b1b1b;
+}
+
+.input_text{
+  float: left;
+  width: 400rpx;
+  /* background-color: #ccc; */
+}
+
+.password{
+  letter-spacing: 1rpx;
+  color: #a0a0a0;
+}
+
+.phone_num{
+  color: #0ab88e;
+  font-size: 36rpx;
+  letter-spacing: 1rpx;
+}
+
+.input_icon{
+  padding-top: 6rpx;
+  height: 40rpx;
+  float: left;
+  width: 120rpx;
+  /* background-color: #000; */
+}
+
+.btn{
+  margin-top: 180rpx;
+  width: 100%;
+}
+
+.btn_login{
+  margin: auto;
+  width: 682rpx;
+  height: 90rpx;
+  border-radius: 45rpx;
+  background-color: #0ab88e;
+  color: #fff;
+  line-height: 90rpx;
+  text-align: center;
+  font-size: 32rpx;
+}
+
+.phone{
+  color: #a0a0a0;
+  font-size: 30rpx;
+  margin-top: 320rpx;
+  text-align: center;
+  width: 100%;
+}
+.phone_text{
+  color: #52b690;
+}
+
+.clear_input{
+  margin-right: 18rpx;
+  float: right;
+  width: 30rpx;
+  height: 30rpx;
+  /* margin-top: 5rpx;  */
+}
+
+.eye{
+  padding-top: 2rpx;
+  margin-right: 20rpx;
+  float: right;
+  width: 38rpx;
+  height: 26rpx;
+  /* margin-top: 5rpx;  */
+}
+
+.btn_login:hover{
+   opacity: .8;
+}

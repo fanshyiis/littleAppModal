@@ -1,0 +1,78 @@
+<!--pages/koalaParent/index/index.wxml-->
+<view class='main'>
+
+  <view class='modal-info clear'>
+    <view class='head-img'>
+      <image src='/img/bind_student/x.png'></image>
+    </view>
+
+    <view class='info'>
+      <view><text>王小明</text>同学的家长</view>
+      <view>中关村二小</view>
+    </view>
+
+    <view class='open-info'><image src='/img/bind_student/right.png'></image></view>
+  </view>
+<!-- 阅读时长 -->
+  <view class='card'>
+    <view class='card-title'>今日阅读时长</view>
+
+    <view class='card-content card-content-index'>
+      <view>今日累计阅读时长：<text class='orange'>1小时</text></view>
+      <view>
+        <view>今日还没有读书哦</view>
+        <view class='blue'>加油！坚持就是胜利！</view>
+      </view>
+      <view>累计阅读时长达<text class='orange'> 3000 </text>分钟</view>
+      <view>相当于读了<text class='orange'> 4 </text>本《三国演义》！</view>
+    </view>
+
+    <view class='card-bottom clear'>
+      <view class='card-bottom-lt'>快去分享一下吧！</view>
+      <view class='card-bottom-rt'><image src='/img/bind_student/share.png'></image></view>
+    </view>
+  </view>
+<!-- 今日作业 -->
+  <view class='card'>
+    <view class='card-title'>今日作业</view>
+
+    <view class='card-content'>
+      <view>今日<text class='orange'> 10 </text>篇</view>
+      <view class='card-content-step clear'>
+        <view class='card-content-step-lt'>阶梯短文阅读</view>
+        <view class='card-content-step-rt'>未完成</view>
+      </view>
+      <view class='card-recommend clear'>
+        <view class='card-recommend-lt'>
+          <view>推荐阅读完成情况</view>
+          <view class='card-recommend-lt-time'>2017.05.05--2017.05.05</view>
+        </view>
+        <view class='card-recommend-rt'><image src='/img/bind_student/finish_blue.png'></image></view>
+      </view>
+    </view>
+  </view>
+<!-- ER测评报告 -->
+  <view class='card'>
+      <view class='card-title'>ER测评报告</view>
+
+      <view class='card-content'>
+        <view>2月10日 测评</view>
+
+        <view class='card-content-step clear'>
+          <view class='card-content-step-lt'>ER分值：<text class='orange'>550</text></view>
+          <view class='card-content-step-rt' style='color: #333'>超越全国 <text class='orange'>50%</text> 的同学！</view>
+        </view>
+
+        <view id='progress'>
+          <progress percent="50" activeColor="#20a3ff"/>
+          <text class='er-index' style='left: 0;'>200ER</text>
+          <text class='er-index' style='right: 0;'>1300ER</text>
+          <view class='point'>
+            <view class='point-img'><image src='/img/bind_student/pointer.png'></image></view>
+            <view>550ER</view>
+          </view>
+        </view>
+      
+      </view>
+    </view>
+  </view>

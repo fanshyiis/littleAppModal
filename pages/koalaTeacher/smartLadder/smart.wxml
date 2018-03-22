@@ -1,0 +1,14 @@
+<!--pages/koalaTeacher/smartLadder/smart.wxml-->
+<view class='content_smart'>
+  <view class='card'>
+    <view class='card_title'>给学生布置的阶梯阅读篇数:</view>
+    <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+    <view class='num'>{{chooseNum}}<text class='num_text'>篇 / 天</text></view>
+    </picker>
+    <image class='tip' src='../../../img/teacher/tip.png'></image>
+    <image class='tips' src='../../../img/teacher/tips.png'></image>
+    <view class='btn'>
+      <view class='btn_ok' bindtap='goToPush'>确认</view>
+    </view>
+  </view>
+</view>

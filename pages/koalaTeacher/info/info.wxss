@@ -1,0 +1,69 @@
+/* pages/koalaParent/info/info.wxss */
+.main{
+  width: 100%;
+  height: 100%;
+  background: #fafbfc;
+  padding-top: 30rpx;  
+  font-size: 32rpx;
+  color:#666;
+}
+
+.main-head{
+  width: 750rpx;
+	height: 189rpx;
+	background-color: #ffffff;
+	border-top:1px solid #ebebeb;
+  border-bottom: 1px solid #ebebeb;
+  margin-bottom: 49rpx;
+}
+.main-head text{
+   line-height: 184rpx; 
+   margin-left: 34rpx;
+}
+.head-img{
+  width: 120rpx;
+  height: 120rpx;
+  border: 4px solid #ebebeb;
+  border-radius: 50%;
+  float: right;
+  margin: 30rpx 36rpx 0 0;
+}
+.content{
+  height: 362rpx;
+  background: #fff;
+  margin-top: 50rpx;
+  border-top:1rpx solid #ebebeb;
+  border-bottom: 1rpx solid #ebebeb;
+  padding-left: 34rpx;
+}
+.content .li{
+  height: 89rpx;
+  line-height: 89rpx;
+  border-bottom: 1rpx solid #ebebeb;
+}
+
+.content .li:nth-child(4){
+  border: none;
+}
+
+.content .li .left{
+  float: left;
+}
+.content .li .right{
+  float: right;
+  color: #999;
+  margin-right: 34rpx;
+  font-size: 28rpx;
+}
+
+.button{
+  width: 682rpx;
+  height: 90rpx;
+  font-size: 34rpx;
+  line-height: 90rpx;
+  text-align: center;
+  background: #0ab88e;
+  border-radius: 45rpx;
+  color: #fff;
+  margin: 128rpx auto 0;
+}

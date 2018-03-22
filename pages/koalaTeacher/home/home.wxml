@@ -1,0 +1,134 @@
+<!--pages/koalaTeacher/home/home.wxml-->
+<view class='modal_bac' wx:if="{{modal1}}">
+  <view class='modal_content2 animated bounceIn'>
+    <view class='modal_title'>提示</view>
+    <view class='modal_item'>
+      您还没有班级,暂时不能发布作业
+    </view>
+    <view class="modal_btn" bindtap='closeModal1'>确定</view>
+  </view>
+</view>
+<view class='home'>
+<scroll-view scroll-y style="height: 100%;">
+  <view class='head' bindtap='navToInfo'>
+    <view class='header'>
+      <image class='header_img' src='../../../img/teacher/header.png'></image>
+    </view>
+    <view class='info'>
+      <view><text class='name'>王晓明</text>老师</view>
+      <view>中关村二小</view>
+    </view>
+    <image class='icon_go' src='../../../img/teacher/ic_back.png'></image>
+  </view>
+  <view class='btn'>
+      <view class='btn_push {{haveClass? "" : "no_class"}}' bindtap='goToPush'>发布作业</view>
+  </view>
+  <view class='work_card' bindtap='navToList'>
+    <view class='work_title'>三年级1班 <text class='work_z'>(今日共<text class='green'>9</text>篇)</text></view>
+    <!-- <view class='no_work'>
+       <view class='no_work_1'>今日无作业</view>
+       <view class='no_work_2'>点击查看全部作业>></view>
+    </view> -->
+    <view class='work_content clear'>
+      <view class='work_item clear'>
+        <view class='work_dot'></view>
+        <view class='work_item_info'>
+          <view class='wii1'>智能阶梯作业</view>
+          <view class='wii2'>完成3篇阶梯阅读</view>
+        </view>
+        <view class='work_item_status'>
+          <view class='work_item_status_text'>全部完成</view>
+          <image class='work_ic_ok' src='../../../img/teacher/ic_ok.png'></image>
+        </view>
+      </view>
+      <view class='work_item clear'>
+        <view class='work_dot'></view>
+        <view class='work_item_info'>
+          <view class='wii1'>智能阶梯作业</view>
+          <view class='wii2'>完成3篇阶梯阅读</view>
+        </view>
+        <view class='work_item_status'>
+         <view class='work_item_status_text'><text class='wis1'><text class='wis2'>11</text>/30</text>已完成</view>   
+             <!-- <view class='work_item_status_text'>全部完成</view>   -->
+          <!-- <image class='work_ic_ok' src='../../../img/teacher/ic_ok.png'></image>  -->
+        </view>
+      </view>
+      <view class='work_more'>更多</view>
+      <view class='tap_go'>点击查看详情 >></view>
+    </view>
+  </view>
+  <view class='work_card'>
+    <view class='work_title'>三年级2班</view>
+    <view class='no_work'>
+       <view class='no_work_1'>今日无作业</view>
+       <view class='no_work_2'>点击查看全部作业>></view>
+    </view>
+  </view>
+  <view class='banner'>
+    <image class='banner_img' src='../../../img/teacher/banner.png'></image>
+    <view class='text clear'>
+     <view class='text_l'>阅读能力测评</view>
+     <image class='icon_r' src='../../../img/teacher/ic_back.png'></image>
+    </view>
+  </view>
+  <view class='er_content'>
+    <view class='er_title'>
+       <view class='er_item_info'>
+          阅读能力测评报告
+        </view>
+        <view class='er_item_status'>
+          <view class='er_item_status_text'>全部完成</view>
+          <image class='er_ic_ok' src='../../../img/teacher/ic_ok.png'></image>
+        </view>
+    </view>
+    <view class='er_data'>
+      <view class='er_data_1 clear'>
+        <view class='er_d_11'><text class='er_class'>三年级1班</text> <text class='er_av'>平均阅读能力</text></view>
+        <view class='er_d_12'>550ER</view>
+      </view>
+      <view class='er_data_2 clear'>超过<text class='er_pre'>4%</text>全国同年级班级</view>
+      <view class='er_data_3 clear'>
+        <view class='er_d_31'>测评时间：2018.3.1-2018.9.1</view>
+        <view class='er_d_32'> 查看更多>></view>
+      </view>
+    </view>
+  </view>
+  <view class='er_content'>
+    <view class='er_title'>
+       <view class='er_item_info'>
+          阅读能力测评报告
+        </view>
+        <view class='er_item_status'>
+          <view class='er_item_status_text'><text class='wis1'><text class='wis2'>11</text>/30</text>已完成</view>
+        </view>
+    </view>
+    <view class='er_data'>
+      <view class='er_data_1 clear'>
+        <view class='er_d_11'><text class='er_class'>三年级1班</text> <text class='er_av'>平均阅读能力</text></view>
+        <view class='er_d_12'>550ER</view>
+      </view>
+      <view class='er_data_2 clear'>超过<text class='er_pre'>4%</text>全国同年级班级</view>
+      <view class='er_data_3 clear'>
+        <view class='er_d_31'>测评时间：2018.3.1-2018.9.1</view>
+        <view class='er_d_32'> 查看更多>></view>
+      </view>
+    </view>
+  </view>
+  <view class='er_content2'>
+    <view class='er_title'>
+       <view class='er_item_info'>
+          阅读能力测评报告
+        </view>
+    </view>
+    <view class='er_data'>
+      <view class='er_data_1 clear'>
+        <view class='er_d_11'><text class='er_class'>三年级1班</text> <text class='er_av'>暂无同学完成测评</text></view>
+      </view>
+      <view class='er_data_3 clear'>
+        <view class='er_d_31'>测评时间：2018.3.1-2018.9.1</view>
+      </view>
+    </view>
+  </view>
+  <view class='bottom'>--已经到底啦--</view>
+  </scroll-view>
+</view>

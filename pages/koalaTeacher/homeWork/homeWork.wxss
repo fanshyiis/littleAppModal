@@ -1,0 +1,376 @@
+/* pages/koalaTeacher/homeWork/homeWork.wxss */
+@import "../../../utils/animate.wxss";
+.content{
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  background: #ebebeb;
+  padding-top: 30rpx; 
+}
+
+page{
+  position: fixed;
+  height: 100%;
+  background: #ebebeb
+}
+
+.choose_class{
+  margin: 0rpx auto 20rpx auto;
+  width: 702rpx;
+  height: 198rpx;
+  border-radius: 24rpx;
+  background: #fff;
+}
+
+.choose_work{
+  margin: 0rpx auto 20rpx auto;
+  width: 702rpx;
+  height: 340rpx;
+  border-radius: 24rpx;
+  background: #fff;
+}
+
+.choose_time{
+  margin: 0rpx auto 20rpx auto;
+  width: 702rpx;
+  height: 361rpx;
+  border-radius: 24rpx;
+  background: #fff;
+}
+
+.btn{
+  bottom: 30rpx;
+  position: fixed;
+  text-align: center;
+  margin-top: 30rpx; 
+  width: 100%;
+}
+
+.btn_push{
+  margin: auto;
+  width: 682rpx;
+  height: 90rpx;
+  border-radius: 45rpx;
+  background-color: #0ab88e;
+  color: #fff;
+  line-height: 90rpx;
+  text-align: center;
+  font-size: 34rpx;
+}
+
+.dis{
+  margin-top: 20rpx;
+  font-size: 34rpx;
+  color: #0ab88e
+}
+
+.card_title{
+  position: relative;
+  padding-top: 39rpx;
+  margin-left: 30rpx;
+  height: 30rpx; 
+  line-height: 30rpx;
+}
+
+.line{
+  float: left;
+  width: 8rpx;
+  height: 30rpx;
+  border-radius: 4rpx;
+  background-color: #0ab88e;
+}
+
+.title{
+ line-height: 30rpx;
+ margin-left: 17rpx;
+ float: left;
+ color: "#333333";
+ font-size: 30rpx;
+ margin-bottom: 27rpx;
+}
+
+.scroll-view_H{
+  height: 70rpx;
+}
+
+.class_list{
+  width: 95%;
+  height: 70rpx;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.c_item{
+  display:inline-block;
+   /* float: left;  */
+  margin-right: 20rpx;
+  font-size: 30rpx;
+  line-height: 60rpx;
+  text-align: center;
+  width: 210rpx;
+  height: 60rpx;
+  border-radius: 30rpx;
+  border: 1px solid #cccccc;
+}
+
+.active{
+  border: 1px solid #0ab88e;
+  background: #b5eadd;
+  color: #0ab88e
+}
+
+.question{
+  width: 34rpx;
+  height: 34rpx;
+  float: right;
+  margin-right: 29rpx;
+}
+.works{
+  margin-top: 32rpx;
+  margin-left: 30rpx;
+}
+
+.work{
+  width: 200rpx;
+  height: 200rpx;
+  float: left;
+  margin-right: 21rpx;
+}
+
+.time_area{
+  width: 642rpx;
+  height: 182rpx;
+  border: 1rpx solid #ededed;
+  border-radius: 10rpx;
+  margin: 30rpx auto 15rpx auto;
+}
+
+.tip_time{
+  margin-left: 30rpx;
+  text-align: left;
+  font-size: 24rpx;
+  color: #0ab88e
+}
+
+.time_area_s{
+  height: 90rpx;
+  border-bottom: 1px solid #ededed
+}
+
+.dot{
+  width: 12rpx;
+  height: 12rpx;
+  border-radius: 50%;
+  background: #0ab88e;
+  margin-left: 30rpx;
+}
+
+.dot2{
+  width: 12rpx;
+  height: 12rpx;
+  border-radius: 50%;
+  background: #ff5a34;
+  margin-left: 30rpx;
+}
+
+.tsl{
+  float: left;
+  height: 90rpx;
+  font-size: 28rpx;
+  color: #333333;
+  line-height: 90rpx;
+}
+
+.tsr{
+  float: right;
+  height: 90rpx;
+  font-size: 28rpx;
+  color: #333333;
+  line-height: 90rpx;
+}
+
+.ll{
+  float: left;
+  padding-top:40rpx;
+  position: relative;
+  height: 90rpx;
+  width: 65rpx;
+}
+
+.tt{
+  float: left;
+}
+
+.rl{
+  margin-top: 29rpx;
+  margin-left: 21rpx;
+  margin-right: 30rpx;
+  width: 17rpx;
+  height: 30rpx;
+  float: right;
+}
+
+.modal_bac{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, .4);
+  z-index: 999;
+}
+
+.modal_content{
+  padding-top: 94rpx;
+  position: relative;
+  margin: 32% auto;
+  border-radius: 24rpx;
+  width: 630rpx;
+  height: 570rpx;
+  background: #fff;
+}
+.modal_content2{
+  padding-top: 94rpx;
+  position: relative;
+  margin: 32% auto;
+  border-radius: 24rpx;
+  width: 630rpx;
+  height: 420rpx;
+  background: #fff;
+}
+
+.modal_title{
+  font-size: 42rpx;
+  text-align: center;
+  color: #333;
+  line-height: 38rpx;
+  margin-bottom: 42rpx;
+}
+
+.modal_item{
+  position: relative;
+  letter-spacing: 1.5rpx;
+  color: #666;
+  margin-bottom: 23rpx;
+  font-size: 30rpx;
+  margin-left: 84rpx;
+  margin-right: 53rpx;
+}
+
+.modal_dot{
+  width: 10rpx;
+  height: 10rpx;
+  background: #0ab88e;
+  border-radius: 5rpx;
+  position: absolute;
+  left: -21rpx;
+  top: 10rpx;
+}
+
+.modal_text{
+  color: #333;
+  font-weight: 500;
+}
+
+.modal_text_green{
+  color: #0ab88e
+}
+
+.modal_btn{
+  width: 352rpx;
+  height: 80rpx;
+  border-radius:40rpx;
+  background: #0ab88e;
+  text-align: center;
+  font-size: 34rpx;
+  color: #fff;
+  line-height: 80rpx;
+  margin: 50rpx auto 0rpx auto;
+}
+
+.taparea{
+  width: 90rpx;
+  height: 90rpx;
+  /* background: #000; */
+  position: absolute;
+  right: 0rpx;
+  top:0rpx;
+}
+
+.taparea2{
+  z-index: 9999;
+  width: 90rpx;
+  height: 90rpx;
+   /* background: #000;  */
+  position: absolute;
+  right: 0rpx;
+  top:0rpx;
+}
+
+.modal_bottom{
+  z-index: 9991;
+  border-radius: 24rpx 24rpx 0 0;
+  width: 100%;
+  height: 723rpx;
+  background: #fff;
+  position: fixed;
+  bottom: 0rpx;
+}
+
+.top{ 
+  z-index: 9999;
+}
+
+.work_content_title{
+  margin-top: 36rpx;
+  font-size: 30rpx;
+  color: #333;
+  text-align: center;
+}
+
+.no_work{
+  text-align: center;
+  color: #999999;
+  font-size: 30rpx;
+  line-height: 480rpx;
+}
+
+.modal_close{
+  width: 30rpx;
+  height: 30rpx;
+  position: absolute;
+  top: 40rpx;
+  right: 40rpx;
+}
+
+.work_item{
+  position: relative;
+  margin-top: 60rpx;
+  margin-left: 24rpx;
+  margin-right: 24rpx;
+}
+
+.wit{
+  line-height: 30rpx;
+  font-size: 30rpx;
+  color: #333;
+}
+
+.witdis{
+  line-height: 56rpx;
+  font-size: 30rpx;
+  color: #999;
+  margin-top: 20rpx;
+}
+
+.del{
+  position: absolute;
+  right: 0rpx;
+  bottom: 0rpx;
+  width: 126rpx;
+  height: 56rpx;
+  border-radius: 28rpx;
+  background: #f56364;
+  font-size: 26rpx;
+  color: #fff;
+  text-align: center;
+  line-height: 56rpx;
+}

@@ -1,0 +1,30 @@
+<!--pages/koalaParent/bindStudent/bindStudent.wxml-->
+<view class='main'>
+
+  <view class="section">
+    <text>账号</text>
+    <input value="{{inputAccount}}" focus bindinput="bindAccountInput"/>
+    <image class='close' src='/img/bind_student/x.png' data-account bindtap="clear"></image>
+  </view>
+  
+   <view class="section">
+    <text>密码</text>
+    <input value="{{inputPassword}}" password='true' bindinput="bindPasswordInput"/>
+    <image class='close' src='/img/bind_student/x.png' data-password bindtap="clear"></image>
+  </view>
+
+  <view class='login' bindtap='login'>登陆</view>
+
+  <view class='new'>新用户注册</view>
+  
+  <view class='tel'>有问题请联系客服：<text>400-666-1607</text></view>
+  
+  <!-- modal -->
+  <!-- <view id='modal'>
+    <view class='modal-content'>
+      <view class='modal-text'>密码错误，请重新填写</view>
+      <view class='modal-button'>确定</view>
+    </view>
+  </view> -->
+
+</view>

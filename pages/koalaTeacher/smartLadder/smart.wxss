@@ -1,0 +1,76 @@
+/* pages/koalaTeacher/smartLadder/smart.wxss */
+.content_smart{
+  width: 100%;
+  height: 100%;
+  background: #ebebeb;
+  position: relative;
+}
+
+page{
+  position: fixed;
+  height: 100%;
+  background: #ebebeb
+}
+
+.card{
+  position: relative;
+  padding-top: 60rpx;
+  width: 710rpx;
+  height: 1080rpx;
+  background: #fff;
+  margin: 34rpx auto 0rpx auto;
+  border-radius: 24rpx;
+}
+
+.card_title{
+  font-size: 28rpx;
+  color: #999999;
+  margin-left: 22rpx;
+}
+
+.num{
+  margin-top: 60rpx;
+  position: relative;
+  font-size: 48rpx;
+  color: #0ab88e;
+  line-height: 50rpx;
+  text-align: center;
+}
+.num_text{
+  top: 4rpx;
+  font-size: 28rpx;
+  color: #333333;
+  position: absolute;
+  right: 115rpx;
+}
+
+.tip{
+  width: 290rpx;
+  height: 28rpx;
+  margin-left: 48rpx;
+  margin-top: 30rpx;
+}
+
+.tips{
+  width: 603rpx;
+  height: 152rpx;
+  margin-left: 48rpx;
+  margin-top: 130rpx;
+}
+
+.btn{
+  margin-top: 430rpx;
+  width: 100%;
+}
+
+.btn_ok{
+  margin: auto;
+  width: 682rpx;
+  height: 90rpx;
+  border-radius: 45rpx;
+  background-color: #0ab88e;
+  color: #fff;
+  line-height: 90rpx;
+  text-align: center;
+  font-size: 32rpx;
+}

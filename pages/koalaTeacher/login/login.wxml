@@ -1,0 +1,25 @@
+<!--pages/koalaTeacher/login/login.wxml-->
+<view class='content'>
+ <view class='title'>账号关联</view>
+ <view class='from_all'>
+ <view class='input clear' bindtap='getFocusA'>
+  <view class='input_lable'>账号</view>
+  <input value="{{account}}" focus='{{inAccount}}' bindinput="bindKeyInput" class='input_text phone_num'></input>
+  <view class='input_icon' wx:if="{{account}}">
+    <image bindtap='clearAccount' class='clear_input' src='../../../img/teacher/clear.png'></image>
+  </view>
+ </view>
+ <view class='input clear' style='margin-top:38rpx;' bindtap='getFocusB'>
+  <view class='input_lable'>密码</view>
+  <input value="{{password}}" focus='{{inPassword}}' bindinput='bindKeyInputPassword' password="{{isEye}}" type="text" class='input_text password'></input>
+  <view class='input_icon' wx:if="{{password}}">
+  <image bindtap='clearPassword' class='clear_input' src='../../../img/teacher/clear.png'></image>
+  <image bindtap='changeEye' class='eye' src="{{isEye? '../../../img/teacher/eye.png' : '../../../img/teacher/eye_c.png'}}"></image>
+  </view>
+ </view>
+ </view>
+ <view class='btn'>
+  <view class='btn_login' bindtap='navToHome'>登录</view>
+ </view>
+ <view class='phone'>有问题请联系客服: <text class='phone_text'>400-666-1607</text></view>
+</view>

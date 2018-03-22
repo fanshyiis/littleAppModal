@@ -1,0 +1,11 @@
+<!--pages/guide/index/index.wxml-->
+<view class='container clear'>
+  <view class='teacher'>
+   <image bindtap='navToTeacher' class='img_btn' src='{{teacher}}'></image>
+   <view class='btn_text'>老 师</view>
+  </view>
+  <view class='parent'>
+   <image bindtap='navToParent' class='img_btn' src='{{parent}}'></image>
+   <view class='btn_text'>家 长</view>
+  </view>
+</view>

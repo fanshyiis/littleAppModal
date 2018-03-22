@@ -1,0 +1,18 @@
+<!--pages/koalaParent/task/task.wxml-->
+<view class='main'>
+
+  <view class='card'>
+    <view class='card-time card-title'>3月19日</view>
+
+    <view class='card-title clear'>
+      <view class='card-title-lt'>阶梯阅读短文 （共<text class='orange'> 1 </text>篇）</view>
+      <view class='card-title-rt finish'>已完成</view>
+    </view>
+
+    <view class='card-content'>
+
+    </view>
+
+  </view>
+
+</view>

@@ -1,0 +1,10 @@
+<!--pages/koalaTeacher/index/index.wxml-->
+<view class='content'>
+ <view class='logo'>
+  <image class='img_logo' src='../../../img/teacher/logo.png'></image>
+ </view>
+ <view class='btn clear'>
+  <view class='btn_link' bindtap='navToLink'>账号关联</view>
+ </view>
+ <view class='phone'>有问题请联系客服: <text class='phone_text'>400-666-1607</text></view>
+</view>

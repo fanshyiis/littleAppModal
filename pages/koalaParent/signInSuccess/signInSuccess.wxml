@@ -1,0 +1,15 @@
+<!--pages/koalaParent/signInSuccess/signInSuccess.wxml-->
+<view class='main'>
+  <view class='title'>注册成功</view>
+
+  <view class='content'>
+    <view class='text'>
+      <view>考拉阅读</view>
+      <view>给孩子“<text>最合适</text>”的文字</view>
+      <view>扫码下载考拉阅读app</view>
+      <image src='/img/bind_student/x.png'></image>
+    </view>
+  </view>
+
+  <view class='button'>进入首页</view>
+</view>

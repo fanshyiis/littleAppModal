@@ -1,0 +1,31 @@
+<!--pages/koalaParent/info/info.wxml-->
+<view class='main'>
+  <view class='main-head'>
+    <text>头像</text>
+      <image class='head-img' src="/img/bind_student/x.png"></image>  
+  </view>
+
+  <view class='content'>
+    <view class='li'>
+      <text class='left'>姓名</text>
+      <text class='right'>哈哈哈</text>
+    </view>
+
+    <view class='li'>
+      <text class='left'>城市</text>
+      <text class='right'>哈哈哈</text>
+    </view> 
+
+    <view class='li'>
+      <text class='left'>学校</text>
+      <text class='right'>哈哈哈</text>
+    </view> 
+
+    <view class='li'>
+      <text class='left'>手机号</text>
+      <text class='right'>哈哈哈</text>
+    </view> 
+  </view>
+
+  <picker class='button' bindchange="bindPickerChange" value="{{index}}" range="{{array}}">切换身份</picker>
+</view>

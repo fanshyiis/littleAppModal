@@ -1,0 +1,438 @@
+/* pages/koalaTeacher/home/home.wxss */
+@import "../../../utils/animate.wxss";
+.home{
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  background: #ebebeb;
+  padding-top: 23rpx; 
+}
+
+page{
+  position: fixed;
+  height: 100%;
+  background: #ebebeb
+}
+
+.head{
+  border-radius: 24rpx;
+  width: 702rpx;
+  height: 198rpx;
+  background: #fff;
+  margin: auto;
+}
+
+.btn{
+  margin-top: 20rpx;
+  margin-bottom: 58rpx;
+  width: 100%;
+}
+
+.btn_push{
+  margin: auto;
+  width: 682rpx;
+  height: 90rpx;
+  border-radius: 45rpx;
+  background-color: #0ab88e;
+  color: #fff;
+  line-height: 90rpx;
+  text-align: center;
+  font-size: 32rpx;
+}
+
+.banner{
+  overflow: hidden;
+  border-radius: 24rpx;
+  width: 702rpx;
+  height: 448rpx;
+  background: #fff;
+  margin: 60rpx auto 0rpx auto;
+}
+
+.banner_img{
+  height: 320rpx;
+  width: 100%;
+}
+
+.text{
+  margin-left: 33rpx;
+  margin-right: 33rpx;
+  margin-top: 24rpx;
+}
+
+.text_l{
+  float: left;
+  font-size: 38rpx;
+  color: #333;
+  line-height: 38rpx;
+}
+
+.icon_r{
+  width: 18rpx;
+  height: 33rpx;
+  float: right;
+}
+
+.icon_go{
+  margin-top: 77rpx;
+  margin-right: 50rpx;
+  width: 18rpx;
+  height: 33rpx;
+  float: right;
+}
+
+.header{
+  float: left;
+  width: 190rpx;
+  height: 198rpx;
+}
+
+.header_img{
+  margin-left: 52rpx;
+  margin-top: 31rpx;
+  width: 110rpx;
+  height: 110rpx;
+  border-radius: 50%;
+  border: 4rpx solid #fff;
+  box-shadow: 0 12rpx 23rpx rgba(42, 43, 43, 0.1)
+}
+
+.info{
+  margin-top: 44rpx;
+  margin-left: 10rpx;
+  float:left;
+  font-size: 30rpx;
+  color: #666;
+  line-height: 50rpx;
+}
+
+.name{
+  font-size: 34rpx;
+  color: #0ab88e;
+  margin-right: 20rpx;
+}
+
+.no_class{
+ background-color: #7ad4c0;
+}
+
+.modal_bac{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, .4);
+  z-index: 999;
+}
+
+.modal_content{
+  padding-top: 94rpx;
+  position: relative;
+  margin: 32% auto;
+  border-radius: 24rpx;
+  width: 630rpx;
+  height: 570rpx;
+  background: #fff;
+}
+.modal_content2{
+  padding-top: 94rpx;
+  position: relative;
+  margin: 32% auto;
+  border-radius: 24rpx;
+  width: 630rpx;
+  min-height: 340rpx;
+  background: #fff;
+}
+
+.modal_title{
+  font-size: 42rpx;
+  text-align: center;
+  color: #333;
+  line-height: 38rpx;
+  margin-bottom: 42rpx;
+}
+
+.modal_item{
+  position: relative;
+  letter-spacing: 1.5rpx;
+  color: #666;
+  margin-bottom: 23rpx;
+  font-size: 30rpx;
+  margin-left: 84rpx;
+  margin-right: 53rpx;
+}
+
+.modal_dot{
+  width: 10rpx;
+  height: 10rpx;
+  background: #0ab88e;
+  border-radius: 5rpx;
+  position: absolute;
+  left: -21rpx;
+  top: 10rpx;
+}
+
+.modal_text{
+  color: #333;
+  font-weight: 500;
+}
+
+.modal_text_green{
+  color: #0ab88e
+}
+
+.modal_btn{
+  width: 352rpx;
+  height: 80rpx;
+  border-radius:40rpx;
+  background: #0ab88e;
+  text-align: center;
+  font-size: 34rpx;
+  color: #fff;
+  line-height: 80rpx;
+  margin: 50rpx auto 0rpx auto;
+}
+
+.work_card{
+  margin: 20rpx auto 0 auto;
+  width: 702rpx;
+  min-height: 418rpx;
+  border-radius: 24rpx;
+  background: #fff;
+}
+
+.work_title{
+  padding-top: 60rpx;
+  line-height: 38rpx;
+  margin-bottom: 60rpx;
+  font-size: 40rpx;
+  color: #333;
+  margin-left: 40rpx;
+}
+
+.green{
+  color: #0ab88e
+}
+
+.no_work{
+  text-align: center;
+}
+
+.no_work_1{
+  padding-top: 43rpx;
+  height: 28rpx;
+  color: #333;
+  font-size: 30rpx;
+}
+
+.no_work_2{
+  height: 25rpx;
+  margin-top: 27rpx;
+  color: #999;
+  font-size: 26rpx;
+}
+
+.work_z{
+  margin-left: 10rpx;
+}
+
+.wii1{
+  font-size: 30rpx;
+  height: 29rpx;
+  color: #333;
+}
+
+.wii2{
+  margin-top: 26rpx;
+  font-size: 26rpx;
+  height: 25rpx;
+  color: #999;
+}
+
+.work_item{
+  position: relative;
+  margin-left: 82rpx;
+  margin-bottom: 40rpx;
+}
+
+.work_dot{
+  position: absolute;
+  left: -30rpx;
+  top: 14rpx;
+  width: 12rpx;
+  height: 12rpx;
+  border-radius: 50%;
+  background: #008eff;
+}
+
+.work_item_status{
+  float: right;
+  height: 29rpx;
+}
+
+.work_item_info{
+  float: left;
+}
+
+.work_ic_ok{
+  float: right;
+  width: 32rpx;
+  height: 32rpx;
+}
+
+.work_item_status_text{
+  float: right;
+  font-size: 30rpx;
+  height: 30rpx;
+  color: #333;
+  line-height: 30rpx;
+  margin-right: 42rpx;
+  margin-left: 9rpx;
+}
+
+.wis1{
+  margin-right: 11rpx;
+  color: #0ab88e
+}
+
+.wis2{
+  font-size: 40rpx;
+  font-weight: 500;
+  margin-right: 4rpx;
+}
+
+.work_more{
+  font-size: 26rpx;
+  color: #ccc;
+  margin-left: 82rpx;
+  margin-top: -12rpx;
+}
+
+.tap_go{
+  margin-top: 20rpx;
+  border-top:1rpx solid #ebebeb;
+  height: 95rpx;
+  text-align: center;
+  font-size: 24rpx;
+  color: #0ab88e;
+  line-height: 95rpx;
+}
+
+.er_content{
+  border-radius: 24rpx;
+  width: 702rpx;
+  height: 358rpx;
+  background: #fff;
+  margin: auto;
+  margin-top: 22rpx;
+}
+
+.er_content2{
+  border-radius: 24rpx;
+  width: 702rpx;
+  height: 318rpx;
+  background: #fff;
+  margin: auto;
+  margin-top: 22rpx;
+}
+
+.er_title{
+  line-height: 95rpx;
+  height: 95rpx;
+  border-bottom: 1rpx solid #ebebeb
+}
+
+.er_item_info{
+  float: left;
+  font-size: 30rpx;
+  color: #333;
+  margin-left: 30rpx;
+}
+
+.er_ic_ok{
+  margin-top: 30rpx;
+  float: right;
+  width: 32rpx;
+  height: 32rpx;
+}
+
+.er_item_status_text{
+  float: right;
+  font-size: 30rpx;
+  height: 30rpx;
+  color: #333;
+  line-height: 95rpx;
+  margin-right: 42rpx;
+  margin-left: 9rpx;
+}
+
+.er_item_status{
+  float: right;
+  height: 95rpx;
+}
+
+.er_data{
+  margin-top: 53rpx;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+}
+
+.er_data_1{
+  color: #333;
+  font-size: 40rpx;
+  height: 37rpx;
+}
+
+.er_data_2{
+  color: #333;
+  margin-top: 24rpx;
+  height: 27rpx;
+  font-size: 26rpx;
+}
+
+.er_data_3{
+  color: #999;
+  height: 23rpx;
+  margin-top: 44rpx;
+  font-size: 24rpx;
+}
+
+.er_d_11{
+  float: left;
+}
+
+.er_d_12{
+  color: #0ab88e;
+  float: right;
+}
+
+.er_d_31{
+  float: left;
+}
+
+.er_d_32{
+  color: #0ab88e;
+  float: right;
+}
+
+.er_class{
+  color: #ffb525;
+}
+
+.er_av{
+  margin-left: 20rpx;
+  font-size: 30rpx;
+}
+
+.er_pre{
+  font-size: 30rpx;
+  color: #0ab88e
+}
+
+.bottom{
+  margin-top: -20rpx;
+  font-size: 26rpx;
+  color: #999;
+  text-align: center;
+  height: 150rpx;
+  line-height: 150rpx;
+}
